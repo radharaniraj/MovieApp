@@ -1,0 +1,30 @@
+{
+  "name": "movie",
+  "plural": "movies",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "yearOfRelease": {
+      "type": "number",
+      "required": true
+    },
+    "actor": {
+      "type": "string",
+      "required": true
+    },
+    "language": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
